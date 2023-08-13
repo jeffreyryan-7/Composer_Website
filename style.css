@@ -1,0 +1,159 @@
+@import url('http://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    font-weight: lighter;
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: 'Droid sans';
+    padding-top: 1.2em;
+    padding-bottom: 1.1em;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.6em;
+    z-index: 10;
+    color: white;
+    opacity: 100%;
+    text-decoration: inherit;
+}
+
+h2{
+    font-family: 'Droid sans';
+    margin: 0;
+    text-align: center;
+    font-size: 2.2em;
+    z-index: 10;
+    color: white;
+    opacity: 100%;
+    word-wrap: break-word;
+    margin-bottom: 0.2em;
+
+}
+
+h4{
+    font-family: 'Droid sans';
+    text-align: center;
+    margin: 1.3em 0em 0em 0em;
+    font-size: 1.5em;
+    line-height: 1;
+    z-index: 10;
+    color: white;
+    opacity: 100%; 
+    word-wrap: break-word;
+    font-style: italic;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+p{
+    text-align: center;
+    padding: 0 5% 0 5%;
+    line-height: 1.2;
+    word-wrap: normal;
+}
+
+#masthead_background{
+    filter: invert(100%);
+    position:absolute;
+    top: 0;
+    width: 16em;
+    height: 8em;
+    margin-top: 0.2em;
+    z-index: -2;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    opacity: 73%;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.nav_button{
+    color: white;
+    text-decoration: inherit;
+    font-size: 1.4em;
+    padding: 0.2em 0.8em;
+    line-height: 1.8em;
+}
+
+.nav_button:hover{
+    transition: 0.7s ease-in-out;
+    color: black;
+    background-color: white;
+    border-radius: 0.01em;
+}
+
+#homepage_image{
+    position: fixed;
+    bottom: 0;
+    z-index: -10;
+    max-height: 95%;
+    max-width: 175%;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+    filter: grayscale(100%);
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.sample_img{
+    max-width: 70%;
+    max-height: 32em;
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translate(-50%);
+}
+
+.short_piece_info{
+    font-family: 'Droid sans';
+    text-align: center;
+    margin: 0.3em 0 0 0;
+    font-size: 0.8em;
+    z-index: 10;
+    color: white;
+    opacity: 90%; 
+    word-wrap: break-word;
+}
+
+.publisher{
+    color: lightgray;
+    font-size: 0.8em;
+    padding-bottom: 1.2em;
+}
+
+.work:hover{
+    transition: 0.6s ease-in-out;
+    opacity: 50%;
+}
+
+.score_title{
+    font-style: italic;
+}
+
+audio{
+    margin: 0 auto;
+    display: block;
+}
+
+.audio-description{
+    font-style: italic;
+    padding: 0;
+    margin-bottom: .2em;
+}
+
+#list_of_works{
+    margin-bottom: 3em;
+}
